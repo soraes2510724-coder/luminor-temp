@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Insertion Sort — 정렬 알고리즘</title>
+  <link rel="stylesheet" href="sortStyle.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">정렬 알고리즘 시각화 웹사이트</div>
+    <nav>
+      <a href="../index.html" class="nav-link">홈</a>
+      <a href="../big-o.html" class="nav-link">Big-O 표기법</a>
+      <a href="../algorithms.html" class="nav-link">알고리즘</a>
+      <a href="https://github.com/soraes2510724-coder/algorithm-visualizer" target="_blank" class="nav-link">GitHub</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Insertion Sort (삽입 정렬)</h1>
+    <p>
+      <span class="highlight">삽입 정렬</span>은 이미 정렬된 부분에 새로운 원소를 알맞은 위치에 삽입하며 정렬을 유지합니다.  
+    </p>
+
+    <h2>🧠 작동 원리</h2>
+    <p>
+      1️⃣ 두 번째 원소부터 시작해 앞쪽 정렬된 부분과 비교합니다.<br>
+      2️⃣ 자신보다 큰 원소가 나오면 그 뒤에 삽입합니다.<br>
+      3️⃣ 배열 끝까지 반복합니다.
+    </p>
+
+    <h2>⚙️ 시간 복잡도</h2>
+    <p>평균/최악 <b>O(n²)</b>, 최선(이미 정렬된 경우) <b>O(n)</b>.</p>
+
+    <h2>✅ 장단점</h2>
+    <ul>
+      <li>작은 데이터셋에 효율적</li>
+      <li>거의 정렬된 데이터에서 매우 빠름</li>
+      <li>하지만 큰 배열에서는 비효율적</li>
+    </ul>
+
+    <a href="../index.html" class="btn">시각화로 이동</a><br>
+    <a href="../algorithms.html" class="back">← 알고리즘 목록으로 돌아가기</a>
+  </div>
+</body>
+</html>

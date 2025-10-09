@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Quick Sort — 정렬 알고리즘</title>
+  <link rel="stylesheet" href="sortStyle.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">정렬 알고리즘 시각화 웹사이트</div>
+    <nav>
+      <a href="../index.html" class="nav-link">홈</a>
+      <a href="../big-o.html" class="nav-link">Big-O 표기법</a>
+      <a href="../algorithms.html" class="nav-link">알고리즘</a>
+      <a href="https://github.com/soraes2510724-coder/algorithm-visualizer" target="_blank" class="nav-link">GitHub</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Quick Sort (퀵 정렬)</h1>
+    <p>
+      <span class="highlight">퀵 정렬</span>은 피벗을 기준으로 작은 값과 큰 값을 나누어 각각 정렬하는
+      <b>분할 정복</b> 방식의 매우 효율적인 정렬 알고리즘입니다.
+    </p>
+
+    <h2>🧠 작동 원리</h2>
+    <p>
+      1️⃣ 배열에서 임의의 피벗을 선택합니다.<br>
+      2️⃣ 피벗보다 작은 값은 왼쪽, 큰 값은 오른쪽으로 분리합니다.<br>
+      3️⃣ 각 부분 배열에 대해 재귀적으로 같은 과정을 수행합니다.
+    </p>
+
+    <h2>⚙️ 시간 복잡도</h2>
+    <p>평균 <b>O(n log n)</b>, 최악 <b>O(n²)</b>.</p>
+
+    <h2>✅ 장단점</h2>
+    <ul>
+      <li>평균적으로 매우 빠름</li>
+      <li>메모리 효율적</li>
+      <li>최악의 경우 O(n²) 가능 (피벗 선택에 따라)</li>
+    </ul>
+
+    <a href="../index.html" class="btn">시각화로 이동</a><br>
+    <a href="../algorithms.html" class="back">← 알고리즘 목록으로 돌아가기</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@400;600&display=swap');
+
+:root {
+  --bg: #f9fafb;
+  --card: #ffffff;
+  --muted: #64748b;
+  --accent: #2563eb;
+  --step: #f59e0b;
+  --swap: #ef4444;
+  --overwrite: #38bdf8;
+  --done: #22c55e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  font-family: 'Inter', 'Manrope', sans-serif;
+  color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 36px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+nav .nav-link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #334155;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+nav .nav-link:hover {
+  color: var(--accent);
+}
+
+/* Main Container */
+.container {
+  flex: 1;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+	font-size: 32px;
+	color: #2563eb;
+	margin-bottom: 16px;
+}
+
+p {
+	line-height: 1.7;
+	color: #374151;
+	font-size: 16px;
+}
+
+.highlight {
+	background: #e0f2fe;
+	padding: 4px 8px;
+	border-radius: 6px;
+	color: #1e40af;
+	font-weight: 600;
+}
+
+.btn {
+	display: inline-block;
+	background: #2563eb;
+	color: white;
+	text-decoration: none;
+	padding: 10px 16px;
+	border-radius: 8px;
+	font-weight: 600;
+	margin-top: 24px;
+	transition: background 0.2s;
+}
+
+.btn:hover {
+	background: #1e40af;
+}
+
+.back {
+	color: #475569;
+	margin-top: 24px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.back:hover {
+	color: #1e40af;
+}
+
